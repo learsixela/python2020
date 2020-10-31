@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BootStrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Games</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Destacados<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Calendario</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eventos</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Invitados</a>
+                            <a class="dropdown-item" href="#">Tickets</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Actividades</a>
+                        </div></li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
+                </form>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <h1 class="display-4">Hola, Gamer!</h1>
+            <p class="lead">Informate de los hechos que interesan al mundo Gamer: VideoJuegos, e-sports, Comics, Cosplay, y nuestros próximos EVENTOS.</p>
+            <hr class="my-4">
+            <p>Contáctanos: contacto@alertagameschile.cl</p>
+            <p class="lead"><a class="btn btn-primary btn-lg" href="#" role="button">Nuestro Instagran</a></p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Jhon Wesley se confirman en «SuperFest Chile»</h1>
+                <p>Dentro de este mes se dio a conocer un nuevo evento masivo en Santiago, el cual a dado mucho que hablar, ya que fue una total sorpresa este nuevo arribo, hasta el momento se confirmo que el evento será realizado dentro de los días 1, 2 y 3 del mes de noviembre en el complejo de la Estación Mapocho.</p>
+                <button type="button" class="btn btn-success">Ver Más</button>
+            </div>
+            <div class="col">
+                <h1>La experiencia real «Apocalipsis Zombie»</h1>
+                <p>Un gran panorama llega este fin de semana al mall “Punta de Sol” de Rancagua para todos los fanáticos de los no-muertos, pues este sábado 19 de enero se realizará la actividad «Apocalipsis Zombie Chile«, donde deberás con tu equipo sobrevivir contra hordas de zombis para lograr escapar «con vida».</p>
+                <button type="button" class="btn btn-success">Ver Más</button>
+            </div>
+            <div class="col">
+                <h1>Sony no se presentará en la E3 2019</h1>
+                <p>Quizás sea un poco temprano para hablar de la E3 del 2019, pero una de las compañías más grandes a decidido bajarse para el próximo año, donde Sony esta tarde desconfirmó su participación para la siguiente E3, según declaraciones de la misma empresa al medio Game Informer.</p>
+                <button type="button" class="btn btn-success">Ver Más</button>
+            </div>
+        </div><br>
+        <div>
+            <div class="col-md-offset-2">
+                <h1>Últimas Noticias</h1>
+                <p>
+                    Digimon Adventure tendrá una nueva serie anime en abril.</p>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn"><h4>Leer Más</h4></button>
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn btn-default"><h4>Promo Video</h4></button>
+            </div><br>
+        </div>
+    </div>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Dirección de Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+        </form>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Elige tu Ciudad</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Antofagasta</option>
+                    <option>La Serena</option>
+                    <option>Santiago</option>
+                    <option>Concepción</option>
+                    <option>Temuco</option>
+                    <option>Castro</option>
+                    <option>Otra</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Escribenos un comentario!</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Deseo que me envien noticias</label>
+            </div><br>
+            <button type="submit" class="btn btn-primary">Inscribirse</button>
+        </form>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

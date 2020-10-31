@@ -1,0 +1,89 @@
+h1
+{
+	color:rgb(218, 141, 42);
+	text-align: center;
+	font-style: italic;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img
+{
+	border-style: double;
+    border-color: black;
+}
+
+.img
+{
+    border-style: double;
+    border-color: black;
+    float:right;
+}
+
+h4
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+h2
+{
+    color:black;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+table, th, td
+{
+    border: 2px solid rgb(216, 47, 81);
+    position: relative;
+    left: 100px;
+    top: 0px;
+}
+
+thead
+{
+    color: rgb(161, 55, 48);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+tbody
+{
+    color: rgb(161, 55, 48);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-image: url("LOR1055_5504e7fa-0fd2-49a6-8c44-9c5b206e2601.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-color: beige;
+}
+
+ul
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+a
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(161, 55, 48);
+    position: relative;
+    left: 1070px;
+}
+
+form
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(161, 55, 48);
+}

@@ -1,0 +1,270 @@
+.globo
+{
+    width: 6%;
+    display: inline-block;
+}
+
+h1
+{
+    color: #474747;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    margin-top: 1.5%;
+    font-size: 40px;
+}
+
+.net
+{
+    color: #22659e;
+}
+
+#cabecera2
+{
+    color: white;
+    background: linear-gradient(#2e6ca1, #5283ad,#2a6aa1);
+    font-size: 180%;
+    margin-top: -2%;
+    padding: 8px;
+    padding-left: 18px;
+    width: 980px;
+}
+
+#contenido
+{
+    background: linear-gradient(#e3e3e3,#ffffff,#ffffff,#ffffff,#ffffff,#ffffff);
+    height: 800px;
+    width: 1006px;
+}
+
+h3
+{
+    padding-top: 40px;
+    margin: 0px;
+}
+
+.internet
+{
+    color: red;
+}
+
+.An
+{
+    font-weight: 900;
+    width: 80%;
+}
+
+.boton1
+{
+    display: block;
+    background: linear-gradient(#5e94c1,#2769a1);
+    box-shadow: 0.5px 0,5px #939393;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.boton2
+{
+    display: block;
+    background: linear-gradient(#eaab54,#ef7600);
+    box-shadow: 0.5px 0,5px #939393;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-bottom: 25px;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.img
+{
+    width: 80%;
+    height: 350px;
+    position: relative;
+}
+
+.binario
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    border-top: 1px solid #b1b1b1;
+}
+
+.text
+{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 180%;
+}
+
+.ninja
+{
+    position: absolute;
+    left: 21%;
+    top: 40%;
+    width: 50%;
+}
+
+.boton3
+{
+    background: linear-gradient(#78d0df,#00c0df);
+    box-shadow: 0.5px 0,5px #26282b;
+    border-radius: 8px;
+    position: absolute;
+    left: 8%;
+    top: 90%;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.publicidad
+{
+    display: inline-block;
+    width: 25%;
+}
+
+.body
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.home
+{
+    width: 3%;
+    display: inline-block;
+}
+
+h5
+{
+    display: inline-block;
+    color: blue;
+    font-size: large;
+}
+
+.izq
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+    position: absolute;
+    left: 58%;
+}
+
+.phone
+{
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+}
+
+.phone1
+{
+    width: 40px;
+}
+
+h2
+{
+    display: inline-block;
+    color: #00c0df;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 180%;
+    padding-left: 50px;
+}
+
+h6
+{
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+h4
+{
+    color: #22659e;
+    font-size: 150%;
+}
+.web
+{
+    color: #0098ae;
+}
+
+.negritas
+{
+    font-weight: 900;
+}
+
+ul
+{
+    width: 650px;
+}
+
+.bici
+{
+    width: 300px;
+    position: absolute;
+    left: 35%;
+    margin-top: 20px;
+}
+
+.So
+{
+    margin-top: 150px;
+}
+
+ol
+{
+    width: 650px;
+}
+
+.borde
+{
+    border-bottom: 1px solid silver;
+    width: 740px;
+}
+
+.cont
+{
+    border-top: 5px solid #0085e0;
+    border-left: 5px solid #0085e0;
+    border-right: 5px solid #0085e0;
+    width: 700px;
+    box-shadow: 4px 0px 3px #929292;
+}
+
+.html
+{
+    width: 120px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.thebig
+{
+    display: inline-block;
+    width: 75%;
+    margin: 10px;
+}
+
+.the
+{
+    margin: 0px;
+}
